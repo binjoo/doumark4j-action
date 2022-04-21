@@ -1,0 +1,11 @@
+name: "Douban mark sync"
+author: "Austin Lee"
+description: "Douban marked data sync to json action"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "activity"
+  color: "green"
